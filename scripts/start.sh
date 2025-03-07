@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "Starting the application..."
-nohup java -jar /home/ubuntu/demo.jar > /dev/null 2>&1 &
+nohup java -jar demo-0.0.1-SNAPSHOT.jar > demo.log 2>&1 &
